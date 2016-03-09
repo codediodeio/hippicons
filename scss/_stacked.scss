@@ -1,0 +1,17 @@
+.#{$hi-css-prefix}-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.#{$hi-css-prefix}-stack-1x, .#{$hi-css-prefix}-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.#{$hi-css-prefix}-stack-1x { line-height: inherit; }
+.#{$hi-css-prefix}-stack-2x { font-size: 2em; }
+.#{$hi-css-prefix}-inverse { color: $hi-inverse; }

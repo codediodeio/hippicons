@@ -1,0 +1,23 @@
+
+.#{$hi-css-prefix}-border {
+  padding: .2em .25em .15em;
+  border: solid .08em $hi-border-color;
+  border-radius: .1em;
+}
+
+.#{$hi-css-prefix}-pull-left { float: left; }
+.#{$hi-css-prefix}-pull-right { float: right; }
+
+.#{$hi-css-prefix} {
+  &.#{$hi-css-prefix}-pull-left { margin-right: .3em; }
+  &.#{$hi-css-prefix}-pull-right { margin-left: .3em; }
+}
+
+/* Deprecated as of 4.4.0 */
+.pull-right { float: right; }
+.pull-left { float: left; }
+
+.#{$hi-css-prefix} {
+  &.pull-left { margin-right: .3em; }
+  &.pull-right { margin-left: .3em; }
+}

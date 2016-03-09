@@ -1,0 +1,16 @@
+.#{$hi-css-prefix}-ul {
+  padding-left: 0;
+  margin-left: $hi-li-width;
+  list-style-type: none;
+  > li { position: relative; }
+}
+.#{$hi-css-prefix}-li {
+  position: absolute;
+  left: -$hi-li-width;
+  width: $hi-li-width;
+  top: (2em / 14);
+  text-align: center;
+  &.#{$hi-css-prefix}-lg {
+    left: -$hi-li-width + (4em / 14);
+  }
+}

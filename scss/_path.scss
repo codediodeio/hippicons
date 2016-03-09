@@ -1,0 +1,13 @@
+@import "variables";
+
+@font-face {
+    font-family: 'hippicons';
+    src:    url('#{$hi-font-path}/hippicons.eot?v=#{$hi-version}');
+    src:    url('#{$hi-font-path}/hippicons.eot?v=#{$hi-version}#iefix') format('embedded-opentype'),
+        url('#{$hi-font-path}/hippicons.woff2?v=#{$hi-version}') format('woff2'),
+        url('#{$hi-font-path}/hippicons.ttf?v=#{$hi-version}') format('truetype'),
+        url('#{$hi-font-path}/hippicons.woff?v=#{$hi-version}') format('woff'),
+        url('#{$hi-font-path}/hippicons.svg?v=#{$hi-version}#hippicons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

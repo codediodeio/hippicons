@@ -1,0 +1,17 @@
+.#{$hi-css-prefix}-rotate-90  { @include hi-icon-rotate(90deg, 1);  }
+.#{$hi-css-prefix}-rotate-180 { @include hi-icon-rotate(180deg, 2); }
+.#{$hi-css-prefix}-rotate-270 { @include hi-icon-rotate(270deg, 3); }
+
+.#{$hi-css-prefix}-flip-horizontal { @include hi-icon-flip(-1, 1, 0); }
+.#{$hi-css-prefix}-flip-vertical   { @include hi-icon-flip(1, -1, 2); }
+
+// Hook for IE8-9
+// -------------------------
+
+:root .#{$hi-css-prefix}-rotate-90,
+:root .#{$hi-css-prefix}-rotate-180,
+:root .#{$hi-css-prefix}-rotate-270,
+:root .#{$hi-css-prefix}-flip-horizontal,
+:root .#{$hi-css-prefix}-flip-vertical {
+  filter: none;
+}
