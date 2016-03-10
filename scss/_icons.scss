@@ -428,9 +428,9 @@
         content: $hi-trash;
     }
 }
-.#{$hi-css-prefix}-thumbs-down-o {
+.#{$hi-css-prefix}-thumbs-o-down {
     &:before {
-        content: $hi-thumbs-down-o;
+        content: $hi-thumbs-o-down;
     }
 }
 .#{$hi-css-prefix}-thumbs-down {
@@ -438,9 +438,9 @@
         content: $hi-thumbs-down;
     }
 }
-.#{$hi-css-prefix}-thumbs-up-o {
+.#{$hi-css-prefix}-thumbs-o-up {
     &:before {
-        content: $hi-thumbs-up-o;
+        content: $hi-thumbs-o-up;
     }
 }
 .#{$hi-css-prefix}-tablet {
