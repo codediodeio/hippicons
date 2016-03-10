@@ -445,13 +445,13 @@
 .hi-trash:before {
     content: "\e927";
 }
-.hi-thumbs-down-o:before {
+.hi-thumbs-o-down:before {
     content: "\e928";
 }
 .hi-thumbs-down:before {
     content: "\e929";
 }
-.hi-thumbs-up-o:before {
+.hi-thumbs-o-up:before {
     content: "\e92a";
 }
 .hi-tablet:before {
