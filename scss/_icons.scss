@@ -5,6 +5,11 @@
         content: $hi-twitter;
     }
 }
+.#{$hi-css-prefix}-twitter {
+    &:before {
+        content: $hi-twitter;
+    }
+}
 .#{$hi-css-prefix}-facebook {
     &:before {
         content: $hi-facebook;
@@ -110,6 +115,11 @@
         content: $hi-reddit;
     }
 }
+.#{$hi-css-prefix}-recycle {
+    &:before {
+        content: $hi-recycle;
+    }
+}
 .#{$hi-css-prefix}-paypal {
     &:before {
         content: $hi-paypal;
@@ -170,6 +180,11 @@
         content: $hi-creative-commons;
     }
 }
+.#{$hi-css-prefix}-amazon {
+    &:before {
+        content: $hi-amazon;
+    }
+}
 .#{$hi-css-prefix}-bluetooth {
     &:before {
         content: $hi-bluetooth;
@@ -178,6 +193,11 @@
 .#{$hi-css-prefix}-bluetooth-b {
     &:before {
         content: $hi-bluetooth-b;
+    }
+}
+.#{$hi-css-prefix}-planet {
+    &:before {
+        content: $hi-planet;
     }
 }
 .#{$hi-css-prefix}-cut {
@@ -300,6 +320,11 @@
         content: $hi-question;
     }
 }
+.#{$hi-css-prefix}-building {
+    &:before {
+        content: $hi-building;
+    }
+}
 .#{$hi-css-prefix}-building-o {
     &:before {
         content: $hi-building-o;
@@ -335,6 +360,11 @@
         content: $hi-play-circle;
     }
 }
+.#{$hi-css-prefix}-play {
+    &:before {
+        content: $hi-play;
+    }
+}
 .#{$hi-css-prefix}-stop-circle {
     &:before {
         content: $hi-stop-circle;
@@ -343,6 +373,11 @@
 .#{$hi-css-prefix}-stop {
     &:before {
         content: $hi-stop;
+    }
+}
+.#{$hi-css-prefix}-backward {
+    &:before {
+        content: $hi-backward;
     }
 }
 .#{$hi-css-prefix}-eject {
@@ -375,9 +410,9 @@
         content: $hi-umbrella;
     }
 }
-.#{$hi-css-prefix}-unlock-alt {
+.#{$hi-css-prefix}-lock {
     &:before {
-        content: $hi-unlock-alt;
+        content: $hi-lock;
     }
 }
 .#{$hi-css-prefix}-unlock {
@@ -385,14 +420,14 @@
         content: $hi-unlock;
     }
 }
+.#{$hi-css-prefix}-unlock-alt {
+    &:before {
+        content: $hi-unlock-alt;
+    }
+}
 .#{$hi-css-prefix}-upload {
     &:before {
         content: $hi-upload;
-    }
-}
-.#{$hi-css-prefix}-thumbs-up {
-    &:before {
-        content: $hi-thumbs-up;
     }
 }
 .#{$hi-css-prefix}-ticket {
@@ -438,6 +473,11 @@
 .#{$hi-css-prefix}-thumbs-down {
     &:before {
         content: $hi-thumbs-down;
+    }
+}
+.#{$hi-css-prefix}-thumbs-up {
+    &:before {
+        content: $hi-thumbs-up;
     }
 }
 .#{$hi-css-prefix}-thumbs-o-up {
@@ -1060,11 +1100,6 @@
         content: $hi-location-arrow;
     }
 }
-.#{$hi-css-prefix}-lock {
-    &:before {
-        content: $hi-lock;
-    }
-}
 .#{$hi-css-prefix}-trend {
     &:before {
         content: $hi-trend;
@@ -1435,6 +1470,11 @@
         content: $hi-external-link;
     }
 }
+.#{$hi-css-prefix}-cart-plus {
+    &:before {
+        content: $hi-cart-plus;
+    }
+}
 .#{$hi-css-prefix}-eye {
     &:before {
         content: $hi-eye;
@@ -1740,11 +1780,6 @@
         content: $hi-check-circle-o;
     }
 }
-.#{$hi-css-prefix}-cart-plus {
-    &:before {
-        content: $hi-cart-plus;
-    }
-}
 .#{$hi-css-prefix}-certificate {
     &:before {
         content: $hi-certificate;
@@ -1858,11 +1893,6 @@
 .#{$hi-css-prefix}-bug {
     &:before {
         content: $hi-bug;
-    }
-}
-.#{$hi-css-prefix}-building {
-    &:before {
-        content: $hi-building;
     }
 }
 .#{$hi-css-prefix}-bolt {
@@ -2218,15 +2248,5 @@
 .#{$hi-css-prefix}-arrow-circle-down {
     &:before {
         content: $hi-arrow-circle-down;
-    }
-}
-.#{$hi-css-prefix}-play {
-    &:before {
-        content: $hi-play;
-    }
-}
-.#{$hi-css-prefix}-backward {
-    &:before {
-        content: $hi-backward;
     }
 }

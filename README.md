@@ -1,10 +1,10 @@
 # HippIcons - A Hipp Icon Font for the Web
 
-HippIcons is an open source icon font and CSS toolkit that includes over 400 stylish glyphs. It is a drop-in alternative to [FontAwesome](https://github.com/FortAwesome/Font-Awesome) for those times you want stand out from the crowd.
+The HippIcons project is an open source icon font and CSS toolkit that includes over 400 stylish glyphs. It is a drop-in alternative to [FontAwesome](https://github.com/FortAwesome/Font-Awesome) for those times you want cast a different appearance than the crowd.
 
 # Why?
 
-We love the developer-friendliness of FontAwesome, but many of our projects just have a different feel, so we created our own icon font from scratch. Much like a different website skin or theme, you can use HippIcons to completely change the feel of your app without dealing with missing icons, different class names, etc.
+We love the developer-friendliness of FontAwesome, but many of our projects just have a different feel, so we created our own icon font from scratch. HippIcons enable you to completely change the feel of your app without dealing with missing icons, different class names, etc.
 
 # Design
 

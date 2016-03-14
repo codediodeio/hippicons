@@ -78,10 +78,10 @@
 .hi-pull-right {
   float: right;
 }
-.fa.hi-pull-left {
+.hi.hi-pull-left {
   margin-right: .3em;
 }
-.fa.hi-pull-right {
+.hi.hi-pull-right {
   margin-left: .3em;
 }
 /* Deprecated as of 4.4.0 */
@@ -91,10 +91,10 @@
 .pull-left {
   float: left;
 }
-.fa.pull-left {
+.hi.pull-left {
   margin-right: .3em;
 }
-.fa.pull-right {
+.hi.pull-right {
   margin-left: .3em;
 }
 .hi-spin {
@@ -255,6 +255,9 @@
 .hi-reddit:before {
     content: "\f1a1";
 }
+.hi-recycle:before {
+    content: "\f1b8";
+}
 .hi-paypal:before {
     content: "\f1ed";
 }
@@ -291,11 +294,17 @@
 .hi-creative-commons:before {
     content: "\f25e";
 }
+.hi-amazon:before {
+    content: "\f270";
+}
 .hi-bluetooth:before {
     content: "\f293";
 }
 .hi-bluetooth-b:before {
     content: "\f294";
+}
+.hi-planet:before {
+    content: "\ea89";
 }
 .hi-cut:before {
     content: "\e911";
@@ -369,6 +378,9 @@
 .hi-question:before {
     content: "\e902";
 }
+.hi-building:before {
+    content: "\ea39";
+}
 .hi-building-o:before {
     content: "\e903";
 }
@@ -390,11 +402,17 @@
 .hi-play-circle:before {
     content: "\e909";
 }
+.hi-play:before {
+    content: "\e90a";
+}
 .hi-stop-circle:before {
     content: "\e90b";
 }
 .hi-stop:before {
     content: "\e90c";
+}
+.hi-backward:before {
+    content: "\e90d";
 }
 .hi-eject:before {
     content: "\e917";
@@ -414,17 +432,17 @@
 .hi-umbrella:before {
     content: "\e91c";
 }
-.hi-unlock-alt:before {
-    content: "\e91d";
+.hi-lock:before {
+    content: "\e99e";
 }
 .hi-unlock:before {
     content: "\e91e";
 }
+.hi-unlock-alt:before {
+    content: "\e91d";
+}
 .hi-upload:before {
     content: "\e91f";
-}
-.hi-thumbs-up:before {
-    content: "\e920";
 }
 .hi-ticket:before {
     content: "\e921";
@@ -452,6 +470,9 @@
 }
 .hi-thumbs-down:before {
     content: "\e929";
+}
+.hi-thumbs-up:before {
+    content: "\e920";
 }
 .hi-thumbs-o-up:before {
     content: "\e92a";
@@ -825,9 +846,6 @@
 .hi-location-arrow:before {
     content: "\e99d";
 }
-.hi-lock:before {
-    content: "\e99e";
-}
 .hi-trend:before {
     content: "\e99f";
 }
@@ -1050,6 +1068,9 @@
 .hi-external-link:before {
     content: "\e9e0";
 }
+.hi-cart-plus:before {
+    content: "\ea1e";
+}
 .hi-eye:before {
     content: "\e9e1";
 }
@@ -1233,9 +1254,6 @@
 .hi-check-circle-o:before {
     content: "\ea1d";
 }
-.hi-cart-plus:before {
-    content: "\ea1e";
-}
 .hi-certificate:before {
     content: "\ea1f";
 }
@@ -1304,9 +1322,6 @@
 }
 .hi-bug:before {
     content: "\ea38";
-}
-.hi-building:before {
-    content: "\ea39";
 }
 .hi-bolt:before {
     content: "\ea3a";
@@ -1520,10 +1535,4 @@
 }
 .hi-arrow-circle-down:before {
     content: "\e914";
-}
-.hi-play:before {
-    content: "\e90a";
-}
-.hi-backward:before {
-    content: "\e90d";
 }
