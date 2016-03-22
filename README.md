@@ -1,5 +1,7 @@
 # HippIcons - A Hipp Icon Font for the Web
 
+[![Code Climate](https://codeclimate.com/github/codediodeio/hippicons/badges/gpa.svg)](https://codeclimate.com/github/codediodeio/hippicons)
+
 The HippIcons project is an open source icon font and CSS toolkit that includes over 400 stylish glyphs. It is a drop-in alternative to [FontAwesome](https://github.com/FortAwesome/Font-Awesome) for those times you want cast a different appearance than the crowd.
 
 [View the Demo](https://hippicons.com/icons)
