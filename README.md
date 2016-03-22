@@ -2,8 +2,7 @@
 
 The HippIcons project is an open source icon font and CSS toolkit that includes over 400 stylish glyphs. It is a drop-in alternative to [FontAwesome](https://github.com/FortAwesome/Font-Awesome) for those times you want cast a different appearance than the crowd.
 
-1. [Preview and Test all HippIcons Glyphs](https://hippicons.com/icons)
-2. [Read the Full Documentation](https://hippicons.com/documentation)
+[View the Demo](https://hippicons.com/icons)
 
 ![HippIcons app interface to preview and test icons](https://storage.googleapis.com/hippicons/hippicons_app_interface.png)
 
@@ -17,19 +16,41 @@ Each icon is designed on a 32 pixel grid and they look excellent on all modern d
 
 In comparison to FontAwesome, HippIcons are laid-back, a bit more curvaceous, enigmatic at times, and just different in subtle (but important) ways.
 
-# Usage
+# Installation
 
-First, include the CSS and fonts files into your project. (CDN hosting coming soon…)
+### Option 1: Use our CDN powered by AWS CloudFront *(recommended)*
 
-HippIcons behaves exactly like FontAwesome, but uses `hi` as the class name (instead of `fa`). The class names are almost universally the same, so all you need to do is change the markup in your existing project and voilà.
+Using our CDN will greatly improve the worldwide loading performance of HippIcons and provide automatic caching. Plus, it's super easy.
 
-**Change:**
+Add the following link in the `<head>` section of your HTML.
+`<link rel="stylesheet" href="https://cdn.hippicons.com/css/hippicons-min.css">`
+
+
+### Option 2: Manual Installation
+
+Alternatively, copy the `css/hippicons-min.css` file and all font files into your project.
+
+`<link rel="stylesheet" href="http://YOUR-PROJECT-PATH/css/hippicons-min.css">`
+
+### Option 3: Bower
+
+Just run the command...
+
+`bower install hippicons`
+
+# Basic Usage
+
+HippIcons will behave exactly like FontAwesome, but they use the `hi` as the class prefix (instead of `fa`). The class names are identical, so all you need to do is change the markup in your existing project and voilà.
+
+**Change FontAwesome markup:**
 
 `<i class=“fa fa-eye fa-2x”></i>`
 
 **To:**
 
 `<i class=“hi hi-eye hi-2x”></i>`
+
+[Read the Full Documentation](https://hippicons.com/documentation)
 
 # Contact
 
