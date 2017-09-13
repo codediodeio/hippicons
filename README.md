@@ -1,3 +1,7 @@
+# Notice: This Project is Not Maintained
+
+September 2017. Use at your own risk. 
+
 # HippIcons - A Hipp Icon Font for the Web
 
 [![Code Climate](https://codeclimate.com/github/codediodeio/hippicons/badges/gpa.svg)](https://codeclimate.com/github/codediodeio/hippicons)
