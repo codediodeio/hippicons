@@ -1,6 +1,6 @@
 # Notice: This Project is Not Maintained
 
-September 2017. Use at your own risk. 
+September 2017. Use at your own risk.
 
 # HippIcons - A Hipp Icon Font for the Web
 
@@ -8,7 +8,7 @@ September 2017. Use at your own risk.
 
 The HippIcons project is an open source icon font and CSS toolkit that includes over 400 stylish glyphs. It is a drop-in alternative to [FontAwesome](https://github.com/FortAwesome/Font-Awesome) for those times you want cast a different appearance than the crowd.
 
-[View the Demo](https://hippicons.com/icons)
+[View the Demo](https://hippicons.com)
 
 ![HippIcons app interface to preview and test icons](https://storage.googleapis.com/hippicons/hippicons_app_interface.png)
 
@@ -56,8 +56,4 @@ HippIcons will behave exactly like FontAwesome, but they use the `hi` as the cla
 
 `<i class=“hi hi-eye hi-2x”></i>`
 
-[Read the Full Documentation](https://hippicons.com/documentation)
-
-# Contact
-
-[CodeDiode.io](https://codediode.io)
+[Read the Full Documentation](https://hippicons.com)
